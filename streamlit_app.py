@@ -1,6 +1,8 @@
 import streamlit as st
+from map_component import show_map
 
-st.title("🎈 My new app")
-st.write(
-    "Let's start building! For help and inspiration, head over to [docs.streamlit.io](https://docs.streamlit.io/)."
-)
+# Title for your app
+st.title("Show Your Position on a Map")
+
+# Display the map component
+show_map()
